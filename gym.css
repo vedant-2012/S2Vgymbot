@@ -1,0 +1,52 @@
+*{
+ margin: 0%;
+ Padding: 0%;
+ }
+body
+{
+ background-image: url("frontpage.jpg");
+ Background-size: 100%;
+ Color:white;
+}
+Nav
+{
+ Display:flex;
+Justify-content: center;
+Justify content: space-around;
+}
+Ul
+{
+Display: flex;
+List-style: none;
+}
+Ul li a
+{
+ Margin-inline: 30px;
+ Font-size: 25px;
+}
+h1
+{font-size: 60px;
+Text-align: center;}
+Div
+{
+font-size: 40px;
+Text-align: center;
+}
+Button
+{
+Border: none;
+background-color: red;
+color: white;
+Font-size: 40px
+}
+.column{
+Float:left;
+Width:33%;
+Padding:5px;
+}
+.row::after
+{
+Content:"";
+Display: table;
+Clear: both;
+}
